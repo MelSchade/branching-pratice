@@ -3,13 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway|Coda:800' rel='stylesheet' type='text/css'>
+
+  <style>
+    body {
+
+
+background: #e4f5fc; /* Old browsers */
+background: -moz-linear-gradient(top,  #e4f5fc 0%, #bfe8f9 30%, #9fd8ef 58%, #2ab0ed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f5fc), color-stop(30%,#bfe8f9), color-stop(58%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 30%,#9fd8ef 58%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 30%,#9fd8ef 58%,#2ab0ed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e4f5fc 0%,#bfe8f9 30%,#9fd8ef 58%,#2ab0ed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e4f5fc 0%,#bfe8f9 30%,#9fd8ef 58%,#2ab0ed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=0 ); /* IE6-9 */
+    }
+    
+    h1 {
+      font-family: 'Coda', cursive;
+      font-size: 50px;
+      color: #24364f;
+    }
+
+    h2 {
+      font-family: 'Coda', cursive;
+      font-size: 40px;
+      color: #35537c;
+      line-height: .5;
+    }
+    .name {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      color: #353535;
+    }
+
+    .fish {
+      float: right;
+      width: 600px;
+      margin: 30px;
+    }
+
+  </style>
 </head>
 <body>
-		
+<img class="fish" src="wade.jpg" itemprop="image" />		
 <div itemscope itemtype="http://schema.org/Person">
-  <span itemprop="name">Wade Nairn</span>
-  <img src="wade.jpg" itemprop="image" />
-  <span itemprop="jobTitle">Web Designer</span>
+  <h1 itemprop="name">Wade Nairn</h1>
+  
+  <h2 itemprop="jobTitle">Web Designer</h2>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
     <span itemprop="streetAddress">
       Rossmay Terrace
